@@ -11,19 +11,19 @@ const navItems = [
     name: "Home",
     href: "/",
   },
-  { name: "Blog", href: "/blog" },
+  // { name: "Blog", href: "/blog" },
   {
     name: "Projects",
     href: "/projects",
   },
   {
-    name: "Achievements",
-    href: "/achievements",
+    name: "Education",
+    href: "/education",
   },
-  {
-    name: "Guestbook",
-    href: "/guestbook",
-  },
+  // {
+  //   name: "Guestbook",
+  //   href: "/guestbook",
+  // },
 ];
 
 const mobileMenuVariants: Variants = {

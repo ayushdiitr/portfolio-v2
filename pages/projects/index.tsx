@@ -41,7 +41,7 @@ const ProjectsPage: NextPage<ProjectsPageProps> = ({
         ))}
       </div>
       <Link
-        href="https://github.com/stars/AnishDe12020/lists/projects"
+        href="https://github.com/ayushdiitr"
         className="group mt-8 flex flex-row items-center justify-start space-x-2 text-xl font-medium"
         noExternalLinkIcon
       >

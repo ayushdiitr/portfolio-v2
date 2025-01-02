@@ -34,11 +34,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <DefaultSeo {...SEO} />
         <SocialProfileJsonLd
           type="Person"
-          name="Anish De"
+          name="Ayush Dhiman"
           url="https://anishde.dev/"
           sameAs={[
-            "https://twitter.com/AnishDe12020",
-            "https://www.youtube.com/anishtechtutorials",
+            "https://x.com/Ayushd175",
+            "https://www.linkedin.com/in/ayush-dhiman-8302b4227/",
           ]}
         />
         {process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL &&
