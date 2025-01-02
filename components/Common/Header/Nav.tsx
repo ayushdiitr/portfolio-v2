@@ -17,13 +17,13 @@ const navItems = [
     href: "/projects",
   },
   {
+    name: "Achievements",
+    href: "/achievements",
+  },
+  {
     name: "Education",
     href: "/education",
   },
-  // {
-  //   name: "Guestbook",
-  //   href: "/guestbook",
-  // },
 ];
 
 const mobileMenuVariants: Variants = {
