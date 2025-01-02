@@ -15,7 +15,8 @@ const CodeBlock = props => {
 };
 
 const BlogImage = props => {
-  return <img {...props} className="my-8 rounded-md" />;
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img alt="" {...props} className="my-8 rounded-md" />;
 };
 
 const BlogLink = props => {
