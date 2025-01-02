@@ -6,7 +6,6 @@ const HASHNODE_DATA_FILE_PATH = "./data/hashnode.json";
 const HASHNODE_API_URL = "https://api.hashnode.com/";
 const HASHNODE_USERNAME = "AnishDe12020";
 
-// eslint-disable-next-line no-unused-vars
 const main = async () => {
   const query = `
 query($username: String!, $page: Int!) {
@@ -78,4 +77,4 @@ query($username: String!, $page: Int!) {
   );
 };
 
-// main();
+main();
