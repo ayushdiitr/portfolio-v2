@@ -20,7 +20,7 @@ const educationDetails = [
   {
     id: 3,
     institution: "Siddhant World School, Lucknow",
-    degree: "High School",
+    degree: "Matriculate",
     duration: "2017 - 2018",
     description:
       "Achieved 93% in High School CBSE Board.",
