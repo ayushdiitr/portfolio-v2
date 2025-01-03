@@ -17,7 +17,16 @@ const Hero = (): JSX.Element => {
           I am a fullstack developer, and currently in my final year UG @ IIT Roorkee. I am looking into learning new
           things (Rust, Go, Web3 and backend technologies). 
         </p>
-        <Socials className="!mt-12" />
+        <a
+          href="https://drive.google.com/file/d/1XJPAHwmsEdo3NmuHy_uK11RyJSET56Po/view?usp=sharing" // Replace with your actual Google Drive resume link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center self-start space-x-2 rounded-full bg-secondary px-4 py-2 text-sm font-medium text-gray-200 shadow-md transition-transform duration-200 hover:scale-105 hover:bg-accent hover:text-tertiary"
+        >
+          <span>Resume</span>
+          <img width="16" height="16" src="https://img.icons8.com/ios/50/pdf--v1.png" alt="pdf--v1"/>
+        </a>
+                <Socials className="!mt-12" />
       </div>
       <div className="will-change-opacity relative h-32 w-32 overflow-hidden rounded-full will-change-transform">
         <NextImage
