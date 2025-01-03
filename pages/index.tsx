@@ -15,14 +15,13 @@ interface HomePageProps {
   blogPosts: HashnodePostWithPlaceHolderImage[];
 }
 
-const HomePage: NextPage<HomePageProps> = ({ blogPosts }) => {
+const HomePage: NextPage<HomePageProps> = () => {
   return (
     <>
       <Hero />
       <Skills />
       <Experience />
       <Projects />
-      {/* <BlogPosts posts={blogPosts} domain={hashnodeData.domain} /> */}
       <Contact />
     </>
   );

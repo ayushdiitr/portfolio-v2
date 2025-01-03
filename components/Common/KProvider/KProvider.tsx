@@ -22,7 +22,6 @@ import toast from "react-hot-toast";
 import Kbd from "@/components/Shared/Kbd";
 import socials from "@/data/socials";
 import { allProjects } from "contentlayer/generated";
-import hashnodeData from "@/data/hashnode.json";
 
 import useCircles from "store/circles";
 
@@ -122,15 +121,7 @@ const KProvider = ({ children }: KProviderProps): JSX.Element => {
     });
   });
 
-  hashnodeData.posts.map(post => {
-    actions.push({
-      id: post._id,
-      name: post.title,
-      perform: () => window.open(`https://${hashnodeData.domain}/${post.slug}`),
-
-      parent: "blog",
-    });
-  });
+  
 
   return (
     <>
